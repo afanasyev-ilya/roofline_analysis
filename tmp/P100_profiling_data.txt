@@ -1,0 +1,28 @@
+dp
+#KERNEL 1: __stepkernel_dds
+__stepkernel_dds (L1)|202.694669|0.349962|L1|fma
+__stepkernel_dds (L2)|202.694669|0.411571|L2|fma
+__stepkernel_dds (DRAM)|202.694669|0.497314|DRAM|fma
+#KERNEL 2: __stepkernel_elastics
+__stepkernel_elastics (L1)|76.442636|0.102367|L1|fma
+__stepkernel_elastics (L2)|76.442636|0.122417|L2|fma
+__stepkernel_elastics (DRAM)|76.442636|0.149021|DRAM|fma
+#KERNEL 3: __stepkernel_extf
+__stepkernel_extf (L1)|121.237455|0.152598|L1|fma
+__stepkernel_extf (L2)|121.237455|0.213740|L2|fma
+__stepkernel_extf (DRAM)|121.237455|0.258930|DRAM|fma
+#KERNEL 1: sum_on_device
+sum_on_device (L1)|44.250968|0.083333|L1|fma
+sum_on_device (L2)|44.250968|0.083304|L2|fma
+sum_on_device (DRAM)|44.250968|0.084157|DRAM|fma
+#KERNEL 1: stencil_1D
+stencil_1D (L1), hit rate 85% |314.893492|0.125000|L1|fma
+stencil_1D (L2), hit rate 0.32% |314.893492|0.861533|L2|fma
+stencil_1D (DRAM)|314.893492|0.869602|DRAM|fma
+stencil_1D (program)|314.893492|0.218736|L1|fma
+# L1 hit rate: 85.490980
+# L2 hit rate: 0.325860
+#KERNEL 1: stencil_1D
+stencil_1D_shared (L1)|1007.111591|0.731933|L1|fma
+stencil_1D_shared (L2)|1007.111591|3.088782|L2|fma
+stencil_1D_shared (DRAM)|1007.111591|3.120982|DRAM|fma
